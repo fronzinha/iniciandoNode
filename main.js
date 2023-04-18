@@ -26,12 +26,12 @@ const resultadoDivisaoTela = moduloCalculadora.divisao(numero01, numero02)
 // == alunos ex 2 ==
 const resultadoEncontrarNomeAluno = moduloAlunos.encontrarAluno(nomeAluno, listaAluno)
 const resultadoFiltrarNomeAluno = moduloAlunos.filtrarAluno(nomeAluno, listaAluno)
-const resultadoFiltrarNomeDeDoisAluno = moduloAlunos.filtrarAluno(nomeAluno, listaDeDoisAlunos)
+const resultadoFiltrarNomeDeDoisAluno = moduloAlunos.filtrarDoisAluno(nomeAluno, listaDeDoisAlunos)
 const resultadoConstruirAluno = moduloAlunos.construirAluno(nomeAluno, idade)
 
 // ======= saida =======
 
-// == calculadora ex 1 ==
+// == calculadora ex 1 ==A
 console.log(resultadoSomaTela)
 console.log(resultadoSubtracaoTela)
 console.log(resultadoMultiplicacaoTela)

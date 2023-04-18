@@ -35,8 +35,8 @@ function filtrarDoisAluno(nomeAluno, listaAluno) {
 function construirAluno(nomeDoAluno, idadeDoAluno) {
 
     const objetoAluno = {
-        nomeAluno: nomeDoAluno,
-        idadeAluno: idadeDoAluno
+        nome: nomeDoAluno,
+        idade: idadeDoAluno
     }
 
     return objetoAluno

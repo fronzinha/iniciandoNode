@@ -77,8 +77,8 @@ describe("Função Construir Aluno", () => {
         const resultado = construirAluno(nomeDoAluno, idadeDoAluno)
 
         const resultadoEsperado = {
-            nomeAluno: nomeDoAluno,
-            idadeAluno: idadeDoAluno
+            nome: nomeDoAluno,
+            idade: idadeDoAluno
         }
 
         // THEN
@@ -86,5 +86,3 @@ describe("Função Construir Aluno", () => {
     })
 
 })
-
-
