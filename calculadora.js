@@ -18,6 +18,7 @@ function multiplicacao(num01, num02) {
     return resultadoMult
 }
 
+
 function divisao(num01, num02) {
     if (num02 === 0) {
         return -101;
@@ -30,14 +31,13 @@ function divisao(num01, num02) {
 }
 
 // exportando
-    
+
 module.exports = {
     soma,
     subtracao,
     multiplicacao,
     divisao,
 }
-
 
 // Modelo de Arrow Functions
 
