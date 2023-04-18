@@ -1,6 +1,6 @@
 // importando
-const moduloCalculadora = require("./calculadora")
-const moduloAlunos = require("./alunos")
+const moduloCalculadora = require("./ex01Calculadora/calculadora")
+const moduloAlunos = require("./ex02Alunos/alunos")
 
 // ======= entrada =======
 
